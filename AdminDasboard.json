@@ -1,0 +1,93 @@
+{
+  "themeName": "ModernProDashboard",
+  "description": "A clean, modern administrative dashboard theme with a dark sidebar and light main content area, featuring a primary cyan/teal accent color.",
+  "colors": {
+    "primary": "#00BCD4",
+    "secondary": "#263238",
+    "background": "#F4F7F9",
+    "surface": "#FFFFFF",
+    "text_primary_dark": "#FFFFFF",
+    "text_primary_light": "#212121",
+    "text_secondary_dark": "#B0BEC5",
+    "text_secondary_light": "#757575",
+    "border_light": "#ECEFF1",
+    "success": "#4CAF50",
+    "warning": "#FFC107",
+    "error": "#F44336"
+  },
+  "typography": {
+    "fontFamily": "Roboto, 'Segoe UI', Arial, sans-serif",
+    "baseFontSize": "14px",
+    "headingWeight": "600",
+    "bodyWeight": "400",
+    "header": {
+      "h1_size": "24px",
+      "h2_size": "20px",
+      "h3_size": "16px"
+    },
+    "text_shadow": "none"
+  },
+  "layoutAndSpacing": {
+    "sidebarWidth": "250px",
+    "contentPadding": "24px",
+    "baseMargin": "16px",
+    "baseRadius": "8px"
+  },
+  "components": {
+    "sidebar": {
+      "backgroundColor": "#263238",
+      "logoAreaHeight": "64px",
+      "item": {
+        "color": "rgba(255, 255, 255, 0.7)",
+        "hoverColor": "#FFFFFF",
+        "activeBackgroundColor": "rgba(0, 188, 212, 0.1)",
+        "activeBorderColor": "#00BCD4"
+      }
+    },
+    "card": {
+      "backgroundColor": "#FFFFFF",
+      "shadow": "0 2px 4px rgba(0, 0, 0, 0.05)",
+      "borderRadius": "8px",
+      "padding": "20px"
+    },
+    "header": {
+      "height": "64px",
+      "backgroundColor": "#FFFFFF",
+      "shadow": "0 1px 3px rgba(0, 0, 0, 0.05)",
+      "iconSize": "20px"
+    },
+    "button": {
+      "primary": {
+        "backgroundColor": "#00BCD4",
+        "color": "#FFFFFF",
+        "borderRadius": "4px",
+        "padding": "10px 16px"
+      },
+      "secondary": {
+        "backgroundColor": "#ECEFF1",
+        "color": "#212121"
+      }
+    },
+    "table": {
+      "headerBackgroundColor": "#F4F7F9",
+      "rowBorderColor": "#ECEFF1",
+      "padding": "12px 20px"
+    },
+    "form_elements": {
+      "inputBorderColor": "#CFD8DC",
+      "inputFocusColor": "#00BCD4",
+      "borderRadius": "4px"
+    },
+    "kpi_widget": {
+      "titleColor": "#757575",
+      "valueColor": "#212121",
+      "iconBackgroundColor": "rgba(0, 188, 212, 0.1)",
+      "iconColor": "#00BCD4"
+    }
+  },
+  "visualElements": {
+    "shadowStyle": "subtle, light box-shadow on cards and header",
+    "iconStyle": "Material/Sharp outline style",
+    "dashboardGrid": "Flexible, multi-column layout on the main content area (e.g., 4-column for KPI widgets, fluid for lists/tables)"
+  }
+}
